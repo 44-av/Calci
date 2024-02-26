@@ -1,0 +1,43 @@
+Disclaimer
+1. Just a React intro Crash Course
+2. Self Study is really important
+
+What is React
+ - What is React
+
+
+React?
+  - Just an un-opinionated front-end library 
+  - Helps you with the nitty gritty stuff of rendering an interactive page
+
+  This results in a convenient code base -> markup and logic in one(?) language
+
+
+
+HTML - How you describe the structure of a page
+DOM - How the browser represents your structure in memory 
+
+Virtual-Virtual HTML
+ - Vitural DOM: lightweight version of the DOM itself
+        - React manipulates this first and then reconciles the real DOM to the updated
+        virtual one using their own diffing algorithm
+        - This allows for a better developer convenience 
+
+
+JS and HTML? -> JSX
+
+Components
+- Smallest unit of React
+- Node in the Tree
+- Can be nested with child Components
+- Renders "HTML" to the page
+
+How do you make this all interactive?
+ - States!
+
+
+
+ <--------------------------->
+ nested functions
+ pass by props
+ 

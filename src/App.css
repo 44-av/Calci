@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+html{
+    /* background-color: rgb(2, 2, 80); */
+    background-color: #282c34;
+  
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .btnOp{
+   background-color: rgb(250, 185, 64);
+   border-radius: 5px;
+   border: 0;
+   height: 7vh;
+   width: 45%;
+   margin-right: 2px;
+   margin-top: 1.5%;
+  
   }
-  to {
-    transform: rotate(360deg);
+  .btnOp:hover{
+    background-color: orange;
   }
-}
+  
+  .txtField{
+    background-color: rgb(220, 219, 219);
+    border-radius: 10px;
+    border: none;
+  border-color: grey;
+    height: 3vh;
+    width: 100%;
+    padding: 10px;
+  }
+  .total{
+    color: orange;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .txtGroup{
+    margin-top: 5px;
+  }
+  .calcu{
+    margin: auto;
+    margin-top: 10%;
+    width: 12%;
+    padding: 10px;
+    background-color: rgb(241, 240, 240);
+    border-radius: 10px;
+    
+  }
+  .text-calcu{
+    font-size: 8px;
+    margin-bottom: -15%;
+    color: grey;
+  }
+  .result{
+    width: 85%;
+    padding: 10px;
+    margin-bottom: -20%;
+    
+  }
+  .inputNum{
+    margin: auto;
+    width: 80%;
+    margin-right: 15%;
+  }
+  .operation{
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+  }
+  .errorMsg{
+    color: red;
+    font-size: 9px;
+    margin-left: 5%;
+  }
